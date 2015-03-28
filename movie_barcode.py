@@ -38,7 +38,7 @@ if __name__ == '__main__':
         input_file = sys.argv[1]
         save_to_output_file = False
         output_file = "movie_barcode.jpg"
-        barcode_height = 300
+        barcode_height = 50
         frame_skip = 10  # Set higher number for longer videos
 
         compute_barcode(input_file, output_file, barcode_height, frame_skip, save_to_output_file)
